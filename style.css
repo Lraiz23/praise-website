@@ -1,0 +1,161 @@
+.gradient-background {
+    background: linear-gradient(300deg, #7F6AFF, #651ABF, #b9f2f3);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  body, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width:100vw
+  }
+
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .intro{
+      margin: 100px 0;
+  }
+
+  h2 {
+    color: #7F6AFF;
+    font-family: "Lato", sans-serif;
+    font-size: 100px;
+    font-weight: normal;
+  }
+
+  hr{
+    border: dotted #9b4fff 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+    
+  p{
+    font-family: "Lora", serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+      background-color: #7F3F98; /* Change to your desired color */
+      color: #fff; /* Change to your desired color */
+    }
+
+  .list{
+    color: #7F3F98;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    list-style:none;
+  }
+
+  ul{
+    margin-left: 300px;
+  }
+
+  #skilltree{
+    padding-left: 300px;
+  }
+
+  .order{
+    font-family: "Lora", serif;
+    font-size: 50px;
+    font-weight: 300;
+    font-style: normal;
+    list-style: disc;
+  }
+
+  .btn{
+      background-color:#7F3F98 ;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  h3{
+    color: #7F3F98;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    list-style:none;
+  }
+
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  } 
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 90px;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+.lora-regular {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.top-section{
+  width: 100%;
+}
+
+@media screen and (max-width: 650px){
+  .top-section > img {
+    height: 100px;
+    width: 300px;
+  }
+
+  #skilltree {
+    padding-left: 0px;
+  }
+
+  .gradient-background{
+    background-size: cover !important;
+  }
+
+  ul {
+    margin-left: 0px;
+  }
+}
